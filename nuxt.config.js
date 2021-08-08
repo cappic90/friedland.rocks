@@ -154,6 +154,12 @@ export default {
         gzip: true,
         exclude: ['/impressum', '/datenschutz']
       }
+    ],
+    [
+      'vue-plausible',
+      {
+        domain: 'friedland.rocks'
+      }
     ]
   ],
   /*
